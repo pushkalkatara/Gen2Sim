@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python main.py --workspace /projects/katefgroup/gen2sim/output/avocado_dmtet -O --test --save_mesh

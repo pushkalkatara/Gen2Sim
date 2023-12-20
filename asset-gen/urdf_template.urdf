@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<robot name="$name$">
+  <link name="$name$">
+    <visual>
+      <origin xyz="0.0 0.0 0.0"/>
+      <geometry>
+        <mesh filename="mesh.obj" scale="$scale$"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0"/>
+      <geometry>
+        <mesh filename="mesh.obj" scale="$scale$"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="$mass$"/>
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+    </inertial>
+  </link>
+</robot>
